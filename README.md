@@ -56,7 +56,7 @@ python3 main.py --gan_type=RankCGAN_2D
 - 1D images generation:
 
 <p align="center">
-<img src="docs/generation_mixte.jpg" width="500" />
+<img src="docs/generation_mixte.jpg" width="700" />
 </p>
 
 Generated shoe (top), face (middle), and scene (bottom) images associated with their
@@ -65,7 +65,7 @@ ranking scores using “sporty”, “masculine” and “natural” attributes 
 - 2D images generation:
 
 <p align="center">
-<img src="docs/generation_2D.jpg" width="500" />
+<img src="docs/generation_2D.jpg" width="700" />
 </p>
 
 Example of two-attributes interpolation on shoe and face images using (“sporty",“black") and (“masculine",“smiling") attributes.
