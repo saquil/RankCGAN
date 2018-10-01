@@ -76,7 +76,7 @@ If you use this code for your research, please cite our papers.
   year={2018}
 }
 ```
-## Poster and Supplementary Materials
+## Poster and Supplementary Material
 - You can find our BMVC 2018 poster [here](https://drive.google.com/open?id=1n8as8lVSVSWanQHDbCIH9h1tCU66msG3)
 - You can find our Supplementary Material [here](http://bmvc2018.org/contents/supplementary/pdf/0534_supp.pdf)
 
