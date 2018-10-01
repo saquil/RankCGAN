@@ -30,7 +30,7 @@ In this code, only Zappos dataset is used. For other datasets, please edit `data
 
 - Install PyTorch 0.4+ and torchvision from [](http://pytorch.org)
 - Clone this repository
-```
+```shell
 git clone https://github.com/saquil/RankCGAN
 cd RankCGAN
 ```
@@ -40,9 +40,9 @@ cd RankCGAN
 The code provides two implementations. `RankCGAN.py` demonstrates one attribute conditional example and `RankCGAN_2D.py` demonstrates multiple attributes case with two attributes.
 
 - Train a model on single attribute:
-`python3 main.py --gan_type=RankCGAN`
+```python3 main.py --gan_type=RankCGAN```
 - Train a model on multiple attributes:
-`python3 main.py --gan_type=RankCGAN_2D`
+```python3 main.py --gan_type=RankCGAN_2D```
 
 **Image generation results**
 
