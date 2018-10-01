@@ -8,7 +8,7 @@ This code is based on DCGAN implementation [pytorch-DCGAN](https://github.com/py
 
 The model architecture comprises three modules, the discriminator, generator and ranker. As shown in the comparison Figure below:
 
-[](docs/GAN.pdf)
+[GAN](docs/GAN.pdf)
 
 # Datasets
 
@@ -28,7 +28,7 @@ In this code, only Zappos dataset is used. For other datasets, please edit `data
 
 **Installation**
 
-- Install PyTorch 0.4+ and torchvision from [](http://pytorch.org)
+- Install PyTorch 0.4+ and torchvision from [http://pytorch.org](http://pytorch.org)
 - Clone this repository
 ```shell
 git clone https://github.com/saquil/RankCGAN
@@ -48,14 +48,14 @@ The code provides two implementations. `RankCGAN.py` demonstrates one attribute 
 
 - 1D images generation:
 
-[](docs/generation_mixte.pdf)
+[1D_gen](docs/generation_mixte.pdf)
 
 Generated shoe (top), face (middle), and scene (bottom) images associated with their
 ranking scores using “sporty”, “masculine” and “natural” attributes respectively.
 
 - 2D images generation:
 
-[](docs/generation_2D.pdf)
+[2D_gen](docs/generation_2D.pdf)
 
 Example of two-attributes interpolation on shoe and face images using (“sporty",“black") and (“masculine",“smiling") attributes.
 
@@ -71,6 +71,6 @@ If you use this code for your research, please cite our papers.
 }
 ```
 # Poster and Supplementary Materials
-- You can find our BMVC 2018 poster [here](docs/poster.pdf)
+- You can find our BMVC 2018 poster [here](https://drive.google.com/open?id=1n8as8lVSVSWanQHDbCIH9h1tCU66msG3)
 - You can find our Supplementary Material [here](http://bmvc2018.org/contents/supplementary/pdf/0534_supp.pdf)
 
