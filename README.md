@@ -40,8 +40,10 @@ cd RankCGAN
 The code provides two implementations. `RankCGAN.py` demonstrates one attribute conditional example and `RankCGAN_2D.py` demonstrates multiple attributes case with two attributes.
 
 - Train a model on single attribute:
+
 ```python3 main.py --gan_type=RankCGAN```
 - Train a model on multiple attributes:
+
 ```python3 main.py --gan_type=RankCGAN_2D```
 
 ### Image generation results
