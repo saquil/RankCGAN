@@ -23,7 +23,7 @@ The model architecture comprises three modules, the discriminator, generator and
 
 - [UT-Zap50K](http://vision.cs.utexas.edu/projects/finegrained/utzap50k/)
 - [Pubfig](https://www.cc.gatech.edu/~parikh/attribute_feedback/)
-- [OSR](http://people.csail.mit.edu/torralba/code/spatialenvelope/)
+- [OSR](https://www.cc.gatech.edu/~parikh/relative.html)
 
 In this code, only UT-Zap50K dataset is used. For other datasets, please edit `dataloader.py` accordingly.
 
