@@ -46,7 +46,7 @@ cd RankCGAN
 
 ### RankCGAN training
 
-The code provides two implementations. `RankCGAN.py` demonstrates one attribute conditional example and `RankCGAN_2D.py` demonstrates multiple attributes case with two attributes.
+The code provides two implementations. `RankCGAN.py` demonstrates one attribute conditional model and `RankCGAN_2D.py` demonstrates multiple attributes case with two attributes conditional model.
 
 - Train a model on single attribute:
 
