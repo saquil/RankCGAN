@@ -26,7 +26,7 @@ In this code, only Zappos dataset is used. For other datasets, please edit `data
 
 # Getting Started
 
-## Installation
+### Installation
 
 - Install PyTorch 0.4+ and torchvision from [http://pytorch.org](http://pytorch.org).
 - Clone this repository.
