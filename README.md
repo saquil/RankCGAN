@@ -7,8 +7,9 @@ This code is based on DCGAN implementation [pytorch-DCGAN](https://github.com/py
 ## Model
 
 The model architecture comprises three modules, the discriminator, generator and ranker. As shown in the following Figure:
-
-![GAN](docs/GAN.jpg)
+<p align="center">
+<img src="docs/GAN.jpg" width="500" />
+</p>
 
 ## Datasets
 
@@ -54,14 +55,18 @@ python3 main.py --gan_type=RankCGAN_2D
 
 - 1D images generation:
 
-![1D_gen](docs/generation_mixte.jpg)
+<p align="center">
+<img src="docs/generation_mixte.jpg" width="500" />
+</p>
 
 Generated shoe (top), face (middle), and scene (bottom) images associated with their
 ranking scores using “sporty”, “masculine” and “natural” attributes respectively.
 
 - 2D images generation:
 
-![2D_gen](docs/generation_2D.jpg)
+<p align="center">
+<img src="docs/generation_2D.jpg" width="500" />
+</p>
 
 Example of two-attributes interpolation on shoe and face images using (“sporty",“black") and (“masculine",“smiling") attributes.
 
