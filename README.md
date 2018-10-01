@@ -1,5 +1,3 @@
-# RankCGAN
-
 # [Ranking CGANs: Subjective Control over Semantic Image Attributes](http://bmvc2018.org/contents/papers/0534.pdf)
 
 This repository provides PyTorch implementations for RankCGAN paper published in BMVC 2018.
