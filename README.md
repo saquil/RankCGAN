@@ -80,7 +80,7 @@ Example of two-attributes interpolation on shoe and face images using (“sporty
 
 ## Citation
 
-If you use this code for your research, please cite our papers.
+If you use this code for your research, please cite our paper.
 ```
 @inproceedings{saquil2018ranking,
   title={Ranking CGANs: Subjective Control over Semantic Image Attributes},
