@@ -1,17 +1,18 @@
 import argparse, os, torch
 from RankCGAN import RankCGAN
 from RankCGAN_2D import RankCGAN_2D
+from encoder import encoder
 
 """parsing and configuration"""
 def parse_args():
     desc = "Pytorch implementation of RankCGAN"
     parser = argparse.ArgumentParser(description=desc)
 
-    parser.add_argument('--gan_type', type=str, default='RankCGAN', choices=['RankCGAN', 'RankCGAN_2D'],
+    parser.add_argument('--gan_type', type=str, default='RankCGAN', choices=['RankCGAN', 'RankCGAN_2D','encoder'],
                         help='The type of the model')
     parser.add_argument('--dataset', type=str, default='shoes', choices=['shoes'],
                         help='The name of dataset')
-    parser.add_argument('--epoch', type=int, default=300, help='The number of epochs to run')
+    parser.add_argument('--epoch', type=int, default=1, help='The number of epochs to run')
     parser.add_argument('--batch_size', type=int, default=64, help='The size of batch')
     parser.add_argument('--input_size', type=int, default=64, help='The size of input image')
     parser.add_argument('--save_dir', type=str, default='models',
@@ -21,6 +22,8 @@ def parse_args():
     parser.add_argument('--lrG', type=float, default=0.0002)
     parser.add_argument('--lrD', type=float, default=0.0002)
     parser.add_argument('--lrR', type=float, default=0.0002)
+    parser.add_argument('--lrEz', type=float, default=0.0002)
+    parser.add_argument('--lrEr', type=float, default=0.0002)
     parser.add_argument('--beta1', type=float, default=0.5)
     parser.add_argument('--beta2', type=float, default=0.999)
     parser.add_argument('--gpu_mode', type=bool, default=True)
@@ -71,6 +74,9 @@ def main():
         gan = RankCGAN(args)
     elif args.gan_type == 'RankCGAN_2D':
         gan = RankCGAN_2D(args)
+    elif args.gan_type == 'encoder':
+        gan = encoder(args)
+        gan.load()
     else:
         print('Model type is not defined')
 
